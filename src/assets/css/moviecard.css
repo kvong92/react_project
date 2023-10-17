@@ -1,0 +1,13 @@
+.movie-card {
+    background-color: #394046;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  

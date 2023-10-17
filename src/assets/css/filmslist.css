@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+  h2 {
+    font-size: 24px;
+    color: #fff
+  }
+
+.pagination a {
+  color: #fff;
+  background-color: #394046;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.filmslist {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination .active {
+  background-color: #61dafb;
+  color: #282c34;
+}
